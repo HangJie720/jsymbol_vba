@@ -1,0 +1,26 @@
+#define PRINT(message) {\
+  printf(message);
+}
+typedef struct Person {
+  char* name;
+  struct Address {
+    char *country, *province;
+  } address;
+  int age;
+} People;
+
+enum Status {
+  RUNNING, SUCCESSFUL, FAILED
+};
+
+int main() {
+  return 0;
+}
+
+void test(int status, ...);
+
+void *test(int age, int size);
+
+void (*test)(int age, int size);
+
+void (*signal(int sig, void (*func)(int)))(int);

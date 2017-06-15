@@ -1,0 +1,7 @@
+Sub CommandButton1_Click()  
+   Sheet1.Columns("B:B").Select  
+    Application.Selection.Delete  
+    For q = 1 To TextBox1.Value  
+    GetOnerRow (q)  
+    Next q  
+End Sub 

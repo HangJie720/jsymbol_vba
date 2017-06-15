@@ -1,0 +1,6 @@
+Public Sub Module()
+End Sub
+Public Function ChooseFolder()
+End Function
+Private Sub Worksheet_BeforeDoubleClick(String,Boolean)
+End Sub

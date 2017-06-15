@@ -1,0 +1,7 @@
+function($) {
+  local $ {
+    fn {
+      function greenify()
+    }
+  }
+}

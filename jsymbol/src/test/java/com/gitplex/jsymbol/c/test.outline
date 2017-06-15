@@ -1,0 +1,29 @@
+macro PRINT
+struct Person {
+  char* name
+  struct Address {
+    char* country
+    char* province
+  }
+  struct Address address
+  int age
+}
+typedef struct Person People {
+  char* name
+  struct Address {
+    char* country
+    char* province
+  }
+  struct Address address
+  int age
+}
+enum Status {
+  RUNNING
+  SUCCESSFUL
+  FAILED
+}
+int main(){...}
+void test(int, ...)
+void* test(int, int)
+void(*)(int, int) test
+void(*)(int) signal(int, void(*)(int))

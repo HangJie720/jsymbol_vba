@@ -1,0 +1,3 @@
+Private Sub Class1_OnError(ByVal Number As Long, ByVal Description As String, ByVal Source As String)
+	  MsgBox "ErrorCode：" & Number & "　ErrorMsg：" & Description & " ErrorSource：" & Source
+End Sub
